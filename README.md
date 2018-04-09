@@ -1,3 +1,5 @@
+# EntreQuote
+
 ★ ***EntreQuote*** ★ helps you save witty quotes from the Net 🌠 
 
 ![preview EntreQuote](./preview.png)
@@ -9,9 +11,9 @@ This repository contains the web application, consisting of :
 
 For the web-extension used to communicate with it, please refers to the [entrequote-webextension](https://github.com/tcoppex/entrequote-webextension) repository.
 
-# Quickstart
+## Quickstart
 
-## Project setup
+### Project setup
 
 We will use the `yarn` and `gem` packages manager to install dependencies and compile both frontend and backend code.
 
@@ -25,7 +27,7 @@ sudo apt-get install gem
 gem install
 ```
 
-## Run the server
+### Run the server
 
 To compile and serve the application, simply type :
 ```
@@ -35,7 +37,7 @@ npm run serve
 This will start a server set by default to your available local addresses on port *4567*.
 You can then visit the application from your [localhost](http://127.0.0.1:4567).
 
-# Project structure overview
+## Project structure overview
 
 * The project root directory contains configurations files :
     - *config.ru* > back-end running script (Rakes),
@@ -47,6 +49,6 @@ You can then visit the application from your [localhost](http://127.0.0.1:4567).
 * **public/** is the server root to be served containing the final compiled files.
 * **resources/** contains the front-end code.
 
-# License
+## License
 
 *EntreQuote* is released under the *MIT License*.
