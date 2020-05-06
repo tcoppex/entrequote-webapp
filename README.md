@@ -33,10 +33,11 @@ To compile and serve the application, simply type :
 ```
 yarn run serve
 ```
-_Note : if you got an error on conflicting json version, you can refer to [Sinatra issue #1294](https://github.com/sinatra/sinatra/issues/1294) for a solution._
 
 This will start a server set by default to your available local addresses on port *4567*.
 You can then visit the application from your [localhost](http://127.0.0.1:4567).
+
+_Note : if you got an error on conflicting json version, you can refer to [Sinatra issue #1294](https://github.com/sinatra/sinatra/issues/1294) for a solution._
 
 ## Project structure overview
 
