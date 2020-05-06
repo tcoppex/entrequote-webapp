@@ -1,14 +1,14 @@
 {
   "name": "EntreQuote",
-  "description": "Explore citations taken around the web.",
-  "version": "1.0.0",
+  "description": "Save and explore citations taken around the web.",
+  "version": "1.0.1",
   "author": "tcoppex",
   "license": "MIT",
   "private": true,
   "scripts": {
     "build": "webpack --mode development --hide-modules --watch",
     "release": "webpack --mode production --hide-modules",
-    "serve": "npm run release && rackup -o 0.0.0.0 -p 4567"
+    "serve": "yarn run release && rackup -o 0.0.0.0 -p 4567"
   },
   "devDependencies": {
     "axios": "^0.18.0",
@@ -22,7 +22,8 @@
     "vue-router": "^3.0.1",
     "vue-style-loader": "^4.0.2",
     "vue-template-compiler": "^2.5.15",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
-  }
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {}
 }

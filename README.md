@@ -1,6 +1,6 @@
 # EntreQuote
 
-★ ***EntreQuote*** ★ helps you save witty quotes from the Net 🌠 
+★ ***EntreQuote*** ★ helps you save and explore citations taken around the web 🌠 
 
 ![preview EntreQuote](./preview.png)
 
@@ -15,24 +15,25 @@ For the web-extension used to communicate with it, please refers to the [entrequ
 
 ### Project setup
 
-We will use the `yarn` and `gem` packages manager to install dependencies and compile both frontend and backend code.
+We will use the `yarn` and `bundle` packages manager to install dependencies and compile both frontend and backend code.
 
 ```bash
 # Install dependencies for the frontend
-npm install -g yarn
 yarn
 
 # Install Ruby dependencies for the backend.
-sudo apt-get install gem
-gem install
+bundle install
 ```
+
+_Note : if the bundle installation fails you might need to install the ruby development package for your system (eg. `ruby-dev` on Debian)._
 
 ### Run the server
 
 To compile and serve the application, simply type :
 ```
-npm run serve
+yarn run serve
 ```
+_Note : if you got an error on conflicting json version, you can refer to [Sinatra issue #1294](https://github.com/sinatra/sinatra/issues/1294) for a solution._
 
 This will start a server set by default to your available local addresses on port *4567*.
 You can then visit the application from your [localhost](http://127.0.0.1:4567).
